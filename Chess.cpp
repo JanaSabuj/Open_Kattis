@@ -34,6 +34,7 @@
 		
 		// else 2 steps and find the pts of valid intersection
 		else {
+			//pts of intersection are (sum+diff)/2 and sum-x 
 			
 			int a1= ((x1+y1)+(x2-y2))/2;
 			int b1= x1+y1-a1;
